@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Responsiva</title>
+</head>
+<body>
+    <h1>Teste de Imagem Responsiva</h1>
+
+    <picture>
+        <source srcset="imagens/paisagem-p.png" media="(max-width: 739px)">
+        <source srcset="imagens/paisagem-m.png" media="(max-width: 1200px)">
+        <img src="imagens/paisagem-g.png" alt="Imagem responsiva">
+    </picture>
+
+    <p>Redimensione a janela para ver a mudança de imagem.</p>
+</body>
+</html>
